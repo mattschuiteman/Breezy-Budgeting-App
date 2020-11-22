@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25097FB42538AD32008930CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25097FB32538AD32008930CD /* AppDelegate.swift */; };
+		25097FB62538AD32008930CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25097FB52538AD32008930CD /* SceneDelegate.swift */; };
+		25097FB82538AD32008930CD /* BreezyHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25097FB72538AD32008930CD /* BreezyHomeView.swift */; };
+		25097FBB2538AD32008930CD /* Breezy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25097FB92538AD32008930CD /* Breezy.xcdatamodeld */; };
+		25097FBD2538AD32008930CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25097FBC2538AD32008930CD /* Assets.xcassets */; };
+		25097FC02538AD32008930CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25097FBF2538AD32008930CD /* Preview Assets.xcassets */; };
+		25097FC32538AD32008930CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25097FC12538AD32008930CD /* LaunchScreen.storyboard */; };
+		25097FCE2538AD33008930CD /* BreezyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25097FCD2538AD33008930CD /* BreezyTests.swift */; };
+		25097FD92538AD33008930CD /* BreezyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25097FD82538AD33008930CD /* BreezyUITests.swift */; };
+		25097FEE2538AE17008930CD /* CreateIncome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25097FE92538AE17008930CD /* CreateIncome.swift */; };
+		25097FEF2538AE17008930CD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25097FEA2538AE17008930CD /* SettingsView.swift */; };
+		25097FF02538AE17008930CD /* CreateExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25097FEB2538AE17008930CD /* CreateExpense.swift */; };
+		25097FF12538AE17008930CD /* BreezyBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25097FEC2538AE17008930CD /* BreezyBalanceView.swift */; };
+		25097FF22538AE17008930CD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25097FED2538AE17008930CD /* Colors.swift */; };
+		25695A3E253BA5C000A7967D /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25695A3D253BA5C000A7967D /* OnBoardingView.swift */; };
+		257D3707253E698C0047E83E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D3706253E698C0047E83E /* MenuView.swift */; };
+		25AAEA6E254484A800BCFD35 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAEA6D254484A800BCFD35 /* StatsView.swift */; };
+		25AAEA79254484C400BCFD35 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAEA78254484C400BCFD35 /* GoalsView.swift */; };
+		25D536352546674500A13A47 /* BreezyStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D536342546674500A13A47 /* BreezyStatsView.swift */; };
+		25E6381B253D53FD005C52BA /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E6381A253D53FD005C52BA /* ViewRouter.swift */; };
+		25E63824253D55AA005C52BA /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E63823253D55AA005C52BA /* LaunchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25097FCA2538AD33008930CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25097FA82538AD32008930CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25097FAF2538AD32008930CD;
+			remoteInfo = Breezy;
+		};
+		25097FD52538AD33008930CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25097FA82538AD32008930CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25097FAF2538AD32008930CD;
+			remoteInfo = Breezy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25097FB02538AD32008930CD /* Breezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25097FB32538AD32008930CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25097FB52538AD32008930CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		25097FB72538AD32008930CD /* BreezyHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreezyHomeView.swift; sourceTree = "<group>"; };
+		25097FBA2538AD32008930CD /* Breezy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Breezy.xcdatamodel; sourceTree = "<group>"; };
+		25097FBC2538AD32008930CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25097FBF2538AD32008930CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25097FC22538AD32008930CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25097FC42538AD32008930CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25097FC92538AD33008930CD /* BreezyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreezyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25097FCD2538AD33008930CD /* BreezyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreezyTests.swift; sourceTree = "<group>"; };
+		25097FCF2538AD33008930CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25097FD42538AD33008930CD /* BreezyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreezyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25097FD82538AD33008930CD /* BreezyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreezyUITests.swift; sourceTree = "<group>"; };
+		25097FDA2538AD33008930CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25097FE92538AE17008930CD /* CreateIncome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateIncome.swift; sourceTree = "<group>"; };
+		25097FEA2538AE17008930CD /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		25097FEB2538AE17008930CD /* CreateExpense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateExpense.swift; sourceTree = "<group>"; };
+		25097FEC2538AE17008930CD /* BreezyBalanceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreezyBalanceView.swift; sourceTree = "<group>"; };
+		25097FED2538AE17008930CD /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		25695A3D253BA5C000A7967D /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		257D3706253E698C0047E83E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		25AAEA6D254484A800BCFD35 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		25AAEA78254484C400BCFD35 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		25D536342546674500A13A47 /* BreezyStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreezyStatsView.swift; sourceTree = "<group>"; };
+		25E6381A253D53FD005C52BA /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		25E63823253D55AA005C52BA /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25097FAD2538AD32008930CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25097FC62538AD33008930CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25097FD12538AD33008930CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25097FA72538AD32008930CD = {
+			isa = PBXGroup;
+			children = (
+				25097FB22538AD32008930CD /* Breezy */,
+				25097FCC2538AD33008930CD /* BreezyTests */,
+				25097FD72538AD33008930CD /* BreezyUITests */,
+				25097FB12538AD32008930CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25097FB12538AD32008930CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25097FB02538AD32008930CD /* Breezy.app */,
+				25097FC92538AD33008930CD /* BreezyTests.xctest */,
+				25097FD42538AD33008930CD /* BreezyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25097FB22538AD32008930CD /* Breezy */ = {
+			isa = PBXGroup;
+			children = (
+				25097FB32538AD32008930CD /* AppDelegate.swift */,
+				25097FB52538AD32008930CD /* SceneDelegate.swift */,
+				25E63823253D55AA005C52BA /* LaunchView.swift */,
+				25E6381A253D53FD005C52BA /* ViewRouter.swift */,
+				25E63822253D5593005C52BA /* OnboardingView */,
+				25695A3C253BA59500A7967D /* Utility */,
+				25389761253A11C500887526 /* HomeView */,
+				25097FBC2538AD32008930CD /* Assets.xcassets */,
+				25097FC12538AD32008930CD /* LaunchScreen.storyboard */,
+				25097FC42538AD32008930CD /* Info.plist */,
+				25097FB92538AD32008930CD /* Breezy.xcdatamodeld */,
+				25097FBE2538AD32008930CD /* Preview Content */,
+			);
+			path = Breezy;
+			sourceTree = "<group>";
+		};
+		25097FBE2538AD32008930CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25097FBF2538AD32008930CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25097FCC2538AD33008930CD /* BreezyTests */ = {
+			isa = PBXGroup;
+			children = (
+				25097FCD2538AD33008930CD /* BreezyTests.swift */,
+				25097FCF2538AD33008930CD /* Info.plist */,
+			);
+			path = BreezyTests;
+			sourceTree = "<group>";
+		};
+		25097FD72538AD33008930CD /* BreezyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25097FD82538AD33008930CD /* BreezyUITests.swift */,
+				25097FDA2538AD33008930CD /* Info.plist */,
+			);
+			path = BreezyUITests;
+			sourceTree = "<group>";
+		};
+		25389761253A11C500887526 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				25097FB72538AD32008930CD /* BreezyHomeView.swift */,
+				25D536342546674500A13A47 /* BreezyStatsView.swift */,
+				25AAEA6C2544849300BCFD35 /* PeripheraryViews */,
+				25924C40254369A500214901 /* Side Menu */,
+				25AAEA6A2544802700BCFD35 /* BalanceView */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		25695A3C253BA59500A7967D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				25097FED2538AE17008930CD /* Colors.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		25924C40254369A500214901 /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				257D3706253E698C0047E83E /* MenuView.swift */,
+			);
+			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		25AAEA6A2544802700BCFD35 /* BalanceView */ = {
+			isa = PBXGroup;
+			children = (
+				25097FE92538AE17008930CD /* CreateIncome.swift */,
+				25097FEB2538AE17008930CD /* CreateExpense.swift */,
+				25097FEC2538AE17008930CD /* BreezyBalanceView.swift */,
+			);
+			path = BalanceView;
+			sourceTree = "<group>";
+		};
+		25AAEA6C2544849300BCFD35 /* PeripheraryViews */ = {
+			isa = PBXGroup;
+			children = (
+				25AAEA6D254484A800BCFD35 /* StatsView.swift */,
+				25097FEA2538AE17008930CD /* SettingsView.swift */,
+				25AAEA78254484C400BCFD35 /* GoalsView.swift */,
+			);
+			path = PeripheraryViews;
+			sourceTree = "<group>";
+		};
+		25E63822253D5593005C52BA /* OnboardingView */ = {
+			isa = PBXGroup;
+			children = (
+				25695A3D253BA5C000A7967D /* OnBoardingView.swift */,
+			);
+			path = OnboardingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25097FAF2538AD32008930CD /* Breezy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25097FDD2538AD33008930CD /* Build configuration list for PBXNativeTarget "Breezy" */;
+			buildPhases = (
+				25097FAC2538AD32008930CD /* Sources */,
+				25097FAD2538AD32008930CD /* Frameworks */,
+				25097FAE2538AD32008930CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Breezy;
+			productName = Breezy;
+			productReference = 25097FB02538AD32008930CD /* Breezy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25097FC82538AD33008930CD /* BreezyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25097FE02538AD33008930CD /* Build configuration list for PBXNativeTarget "BreezyTests" */;
+			buildPhases = (
+				25097FC52538AD33008930CD /* Sources */,
+				25097FC62538AD33008930CD /* Frameworks */,
+				25097FC72538AD33008930CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25097FCB2538AD33008930CD /* PBXTargetDependency */,
+			);
+			name = BreezyTests;
+			productName = BreezyTests;
+			productReference = 25097FC92538AD33008930CD /* BreezyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25097FD32538AD33008930CD /* BreezyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25097FE32538AD33008930CD /* Build configuration list for PBXNativeTarget "BreezyUITests" */;
+			buildPhases = (
+				25097FD02538AD33008930CD /* Sources */,
+				25097FD12538AD33008930CD /* Frameworks */,
+				25097FD22538AD33008930CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25097FD62538AD33008930CD /* PBXTargetDependency */,
+			);
+			name = BreezyUITests;
+			productName = BreezyUITests;
+			productReference = 25097FD42538AD33008930CD /* BreezyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25097FA82538AD32008930CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					25097FAF2538AD32008930CD = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					25097FC82538AD33008930CD = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 25097FAF2538AD32008930CD;
+					};
+					25097FD32538AD33008930CD = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 25097FAF2538AD32008930CD;
+					};
+				};
+			};
+			buildConfigurationList = 25097FAB2538AD32008930CD /* Build configuration list for PBXProject "Breezy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25097FA72538AD32008930CD;
+			productRefGroup = 25097FB12538AD32008930CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25097FAF2538AD32008930CD /* Breezy */,
+				25097FC82538AD33008930CD /* BreezyTests */,
+				25097FD32538AD33008930CD /* BreezyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25097FAE2538AD32008930CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25097FC32538AD32008930CD /* LaunchScreen.storyboard in Resources */,
+				25097FC02538AD32008930CD /* Preview Assets.xcassets in Resources */,
+				25097FBD2538AD32008930CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25097FC72538AD33008930CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25097FD22538AD33008930CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25097FAC2538AD32008930CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25097FEE2538AE17008930CD /* CreateIncome.swift in Sources */,
+				25E63824253D55AA005C52BA /* LaunchView.swift in Sources */,
+				25097FBB2538AD32008930CD /* Breezy.xcdatamodeld in Sources */,
+				25097FB42538AD32008930CD /* AppDelegate.swift in Sources */,
+				25695A3E253BA5C000A7967D /* OnBoardingView.swift in Sources */,
+				25097FEF2538AE17008930CD /* SettingsView.swift in Sources */,
+				25AAEA79254484C400BCFD35 /* GoalsView.swift in Sources */,
+				25097FF22538AE17008930CD /* Colors.swift in Sources */,
+				25AAEA6E254484A800BCFD35 /* StatsView.swift in Sources */,
+				257D3707253E698C0047E83E /* MenuView.swift in Sources */,
+				25097FB62538AD32008930CD /* SceneDelegate.swift in Sources */,
+				25D536352546674500A13A47 /* BreezyStatsView.swift in Sources */,
+				25E6381B253D53FD005C52BA /* ViewRouter.swift in Sources */,
+				25097FB82538AD32008930CD /* BreezyHomeView.swift in Sources */,
+				25097FF02538AE17008930CD /* CreateExpense.swift in Sources */,
+				25097FF12538AE17008930CD /* BreezyBalanceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25097FC52538AD33008930CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25097FCE2538AD33008930CD /* BreezyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25097FD02538AD33008930CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25097FD92538AD33008930CD /* BreezyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25097FCB2538AD33008930CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25097FAF2538AD32008930CD /* Breezy */;
+			targetProxy = 25097FCA2538AD33008930CD /* PBXContainerItemProxy */;
+		};
+		25097FD62538AD33008930CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25097FAF2538AD32008930CD /* Breezy */;
+			targetProxy = 25097FD52538AD33008930CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25097FC12538AD32008930CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25097FC22538AD32008930CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25097FDB2538AD33008930CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25097FDC2538AD33008930CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25097FDE2538AD33008930CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Breezy/Preview Content\"";
+				DEVELOPMENT_TEAM = 3KJY9UDTSX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Breezy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Matthew-Schuiteman.Breezy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25097FDF2538AD33008930CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Breezy/Preview Content\"";
+				DEVELOPMENT_TEAM = 3KJY9UDTSX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Breezy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Matthew-Schuiteman.Breezy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25097FE12538AD33008930CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KJY9UDTSX;
+				INFOPLIST_FILE = BreezyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Matthew-Schuiteman.BreezyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breezy.app/Breezy";
+			};
+			name = Debug;
+		};
+		25097FE22538AD33008930CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KJY9UDTSX;
+				INFOPLIST_FILE = BreezyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Matthew-Schuiteman.BreezyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breezy.app/Breezy";
+			};
+			name = Release;
+		};
+		25097FE42538AD33008930CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KJY9UDTSX;
+				INFOPLIST_FILE = BreezyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Matthew-Schuiteman.BreezyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Breezy;
+			};
+			name = Debug;
+		};
+		25097FE52538AD33008930CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KJY9UDTSX;
+				INFOPLIST_FILE = BreezyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Matthew-Schuiteman.BreezyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Breezy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25097FAB2538AD32008930CD /* Build configuration list for PBXProject "Breezy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25097FDB2538AD33008930CD /* Debug */,
+				25097FDC2538AD33008930CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25097FDD2538AD33008930CD /* Build configuration list for PBXNativeTarget "Breezy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25097FDE2538AD33008930CD /* Debug */,
+				25097FDF2538AD33008930CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25097FE02538AD33008930CD /* Build configuration list for PBXNativeTarget "BreezyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25097FE12538AD33008930CD /* Debug */,
+				25097FE22538AD33008930CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25097FE32538AD33008930CD /* Build configuration list for PBXNativeTarget "BreezyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25097FE42538AD33008930CD /* Debug */,
+				25097FE52538AD33008930CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25097FB92538AD32008930CD /* Breezy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25097FBA2538AD32008930CD /* Breezy.xcdatamodel */,
+			);
+			currentVersion = 25097FBA2538AD32008930CD /* Breezy.xcdatamodel */;
+			path = Breezy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 25097FA82538AD32008930CD /* Project object */;
+}
